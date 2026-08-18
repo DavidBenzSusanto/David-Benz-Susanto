@@ -1,0 +1,88 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>David Benz Susanto | Personal Profile</title>
+    </head>
+
+    <body>
+        <!-- is just a semantic reminder of the header part for the reader of code-->
+        <header class = "profile-header">
+            <h1>David Benz Susanto</h1>
+            <p class="intro">Second-year AI student in Indonesia</p>
+
+            <p>
+                <a href="#about">About me</a> |
+                <a href="#skills">Skills</a>
+            </p>
+
+            <img
+                src="Profile_Picture.jpeg"
+                alt="The picture of Bob at the AI fair"
+                width="320"
+            >
+        </header>
+        <!--section behaves as the name suggest but article is like individual examples in each section-->
+        <main>
+            <section id="about">
+                <h2>About me</h2>
+                <p>I was born in Jakarta on 20th of August 2007. I am now 19 years old and am an aspiring AI scientist. I like to run and exercise, my favorite sport is Badminton.</p>
+                
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <p>Bachelor of Informatics from
+                    <a href="https://www.uph.edu/id/">UPH</a></p>
+                <p>Expected graduation: 2028</p>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>C++ fundamentals</li>
+                    <li>Python fundamentals</li>
+                    <li>Algorithms and data structures</li>
+                </ul>
+            </section>
+
+            <section id="projects">
+                <h2>Course projects</h2>
+                <article>
+                    <h3>Image Compression Using SVD</h3>
+                    <p>Shrinks photos by keeping key values.</p>
+                </article>
+                <article>
+                    <h3>Data Structures Project</h3>
+                    <p>Compares list and tree lookups.</p>
+                    <ol>
+                        <li>Write valid HTML</li>
+                        <li>Open it in a browser</li>
+                        <li>Inspect it in DevTools</li>
+                    </ol>
+                </article>
+            </section>
+
+            
+            <section id="contact">
+                <h2>Contact</h2>
+                <p><a href="mailto:davidbenzsus@gmail.com">davidbenzsus@gmail.com</a></p>
+
+                <form action="" method="get">
+                    <label for="visitor-email">Your email</label>
+                    <input id="visitor-email" name="email"
+                           type="email" required>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>Built in Week 1 of Web and Mobile
+                Application Development.</p>
+        </footer>
+    </body>
+</html>
